@@ -59,7 +59,7 @@ console.log (allowedPets);
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = (adventurous); {
+let result = (adventurous) {
   if (adventurous == true) {
     console.log ("Adventures are great!");
   }
@@ -75,6 +75,13 @@ console.log (result);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = 'Try again later.'; {
+  if (adventurous == true && luckyNumber == 2) {
+    console.log ("Roll the dice!");
+  }
+}
+console.log (diceRoll);
+
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -84,7 +91,7 @@ console.log (result);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
+let petStatus = ''
 
 // STRETCH GOALS:
 
