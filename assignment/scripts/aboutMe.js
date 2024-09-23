@@ -39,10 +39,17 @@ console.log (food);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-let 
+let pets = 2;
+console.log (pets);
+
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 3;
+console.log (friendsPets);
 
 // 10 - Add two pets to your `pets` variable
+pets = pets + 2;
+console.log (pets);
+
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
